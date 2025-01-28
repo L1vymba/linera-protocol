@@ -27,7 +27,7 @@ env:
   RUSTFLAGS: -D warnings
   RUSTUP_MAX_RETRIES: 10
   RUST_LOG: warn
-  DOCKER_COMPOSE_WAIT: "true"
+  DOCKER_COMPOSE_WAIT: "false"
 
 permissions:
   contents: read
